@@ -1,4 +1,4 @@
-/*---------------------- copare json without order--------------------------*/
+/*---------------------- compare json without order--------------------------*/
 
 var obj1 = {
   name: 'Person 1',
@@ -19,7 +19,7 @@ Object.keys(obj2).sort().forEach (key=>{
 })
 console.log(JSON.stringify(object1)===JSON.stringify(object2))
 
-/*---------------------- copare json without order--------------------------*/
+/*---------------------- compare json without order--------------------------*/
 
 
 /*---------------------- API PROBLEM--------------------------*/
